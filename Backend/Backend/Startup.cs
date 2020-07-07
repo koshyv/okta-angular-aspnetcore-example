@@ -51,7 +51,7 @@ namespace Backend
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             .AddJwtBearer(options =>
             {
-                options.Authority = "https://dev-611348.oktapreview.com/oauth2/default";
+                options.Authority = "https://dev-924994.okta.com/oauth2/default";
                 options.Audience = "api://default";
             });
 

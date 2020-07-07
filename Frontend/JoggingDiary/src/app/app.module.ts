@@ -26,9 +26,9 @@ import { HomeComponent } from './home/home.component';
 
 
 const config = {
-  issuer: 'https://dev-611348.oktapreview.com/oauth2/default',
+  issuer: 'https://dev-924994.okta.com/oauth2/default',
   redirectUri: 'http://localhost:4200/implicit/callback',
-  clientId: '0oaedm79ibBbgsefU0h7',
+  clientId: '0oajdgtanT4a4CDTz4x6',
   scope: 'openid profile email'
 };
 
