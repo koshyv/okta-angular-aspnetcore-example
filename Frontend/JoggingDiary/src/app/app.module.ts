@@ -27,7 +27,7 @@ import { HomeComponent } from './home/home.component';
 
 const config = {
   issuer: 'https://dev-924994.okta.com/oauth2/default',
-  redirectUri: 'http://localhost:4200/implicit/callback',
+  redirectUri: 'https://jogging.azurewebsites.net',
   clientId: '0oajdgtanT4a4CDTz4x6',
   scope: 'openid profile email'
 };
